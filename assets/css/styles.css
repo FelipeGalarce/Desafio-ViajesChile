@@ -1,0 +1,31 @@
+/* Aca le estoy dando el tipo de letra que quiero en la mayor parte de la pagina */
+body p, body h3  {
+    font-family: 'Roboto', sans-serif;
+}
+/* Aca le cambio el tamaño al logo de la navbar */
+.navbar-brand img {
+    height: 50px;
+    width: 50px;
+}
+/* Aca agrando un poco los iconos, y cambio su color a blanco, ademas de darle cierta separacion */
+.icon {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+/* En esta seccion le doy preferencia a los itemps de la navbar por sobre las imagenes del carrusel, de lo contrario en ciertas partes al hacer click se cambia la imagen en vez de seleccionar un link */
+.navbar-nav, .navbar-toggler {
+    z-index: 999;
+}
+/* Esto es para que desaparezca la seccion de quienes somos en resoluciones bajas */
+@media (max-width: 576px) {
+    #quienessomos {
+        display: none;
+    }
+}
+/* Aca le estoy dando mayor tamaño y el estilo de fuente que quiero que tengan los link de la navbar */
+.nav-item a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+
+}
