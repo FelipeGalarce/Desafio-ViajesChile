@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/img/Sin título-1.png">
 </head>
+
 <body class="bg-dark">
 
     <!-- Subi la pagina a git hub pages, este es el link https://felipegalarce.github.io/Desafio-ViajesChile/ -->
@@ -56,7 +57,7 @@
                 </div>
             </section>
             <!-- Aqui es donde se sobrepone el navbar al carrusel, todo dentro del mismo div como contenedor -->
-            <div class="card-img-overlay d-none d-sm-block">
+            <div class="card-img-overlay">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                         <div class="container-fluid">
@@ -76,44 +77,10 @@
                                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#quienessomos">Quienes Somos</a>
+                                        <a class="nav-link" href="#quienessomos2">Quienes Somos</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#destacados">Destacado</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#contacto">Contacto</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <div class="card-img-overlay d-block d-sm-none">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">
-                                <!-- Esta es el logo junto con la imagen del mismo -->
-                                <p class="fs-4 fw-bold text-white"><img src="assets\img\viajes.svg" alt="">Viajes Chile
-                                </p>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav text-center ms-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#destacados">Destacado</a>
+                                        <a class="nav-link" href="index.html">Destacado</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -126,10 +93,8 @@
             </div>
         </div>
     </header>
-
-    <!-- Aca esta la seccion de quienes somos, desaparece en ciertas resoluciones, y tiene cada columna con un icono y un parrafo -->
     <section>
-        <div class="container bg-dark" id="quienessomos">
+        <div class="container bg-dark" id="quienessomos2">
             <div class=" border-bottom border-info">
                 <h3 class="text-white fs-1 text-center fw-bold py-5">¿Quiénes Somos?</h3>
             </div>
@@ -173,63 +138,6 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container bg-dark" id="destacados">
-            <div class="border-bottom border-info">
-                <h3 class="text-center text-white fs-1 fw-bold py-5">Destacados</h3>
-            </div>
-            <!-- Aca estan las 4 tarjetas, con sus respectivas columnas y breakpoints -->
-            <div class="row pt-4">
-                <div class="col-12 col-xl-3 col-md-6 my-4">
-                    <div class="card mx-auto  sugerencia" style="width: 18rem;">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
-                                placeat, eum magnam a consectetur maxime distinctio recusandae reiciendis corrupti id,
-                                sapiente quia beatae culpa voluptas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-3 col-md-6 my-4">
-                    <div class="card sugerencia mx-auto" style="width: 18rem;">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                                delectus et sed aliquid nesciunt sapiente ipsam, odit molestiae perspiciatis, labore
-                                dolor quaerat accusamus culpa enim?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-3 col-md-6 my-4">
-                    <div class="card sugerencia mx-auto" style="width: 18rem;">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-                                culpa commodi perferendis? Placeat fuga itaque repudiandae id aperiam eum! Magni
-                                laboriosam beatae porro eum odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-3 col-md-6 my-4">
-                    <div class="card sugerencia mx-auto" style="width: 18rem;">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt
-                                in voluptas, unde voluptate odio eaque atque id dignissimos commodi magnam omnis
-                                molestias consequuntur itaque!</p>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!--   Aca tengo el typeform que hice, pero no lo carga cuando lo reviso por live server, quizas es por eso, adjunto de todas maneras el link https://tyql6ibcu13.typeform.com/to/dpivMDKW -->
     <section>
         <div class="container bg-dark" id="contacto">
             <div>
